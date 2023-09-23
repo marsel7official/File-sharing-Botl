@@ -117,15 +117,19 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🔊 suppor† group👍", url="https://t.me/+GFMvhtCR_BdhOTA1"),
+                            InlineKeyboardButton("📽️ Movie chαnnel📽️", url="https://t.me/+l_5oMi-MXmVkOTM9")
                         ],
+                        [
+                        InlineKeyboardButton("🎥 Movie Group📽️", url="https://t.me/+zXWruLwLfLFjYzVl"),
+                        InlineKeyboardButton("🔊 Update chαnnel📢", url="https://t.me/+MjAUb44jL9tkNjFl")
+                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ Subscribe YT✧✧⎠⎠", url="https://www.youtube.com/@natureq")
                         ]]))
             else :
                 await cmd.reply_photo(photo=lazy_pic,
@@ -133,15 +137,19 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🔊 suppor† group👍", url="https://t.me/+GFMvhtCR_BdhOTA1"),
+                            InlineKeyboardButton("📽️ Movie chαnnel📽️", url="https://t.me/+l_5oMi-MXmVkOTM9")
                         ],
+                        [
+                        InlineKeyboardButton("🎥 Movie Group📽️", url="https://t.me/+zXWruLwLfLFjYzVl"),
+                        InlineKeyboardButton("🔊 Update chαnnel📢", url="https://t.me/+MjAUb44jL9tkNjFl")
+                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                            InlineKeyboardButton("⎝⎝✧✧ Subscribe YT✧✧⎠⎠", url="https://www.youtube.com/@natureq")
                         ]]))
             
         else:
@@ -377,7 +385,7 @@ async def Lazy_start():
                     [
                         [
                             InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                                url="https://github.com/LazyDeveloperr/MissRozy")
+                                                url="https://t.me/MarselUpdate")
                         ],
                         [
                             InlineKeyboardButton("GФ HФMΞ", callback_data="gotohome"),
@@ -395,7 +403,7 @@ async def Lazy_start():
                     [
                         [
                             InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                                url="https://github.com/LazyDeveloperr/MissRozy")
+                                                url="https://t.me/MarselUpdate")
                         ],
                         [
                             InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -413,19 +421,20 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🔊 suppor† group👍", url="https://t.me/+GFMvhtCR_BdhOTA1"),
+                            InlineKeyboardButton("📽️ Movie chαnnel📽️", url="https://t.me/+l_5oMi-MXmVkOTM9")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
+                        InlineKeyboardButton("🎥 Movie Group📽️", url="https://t.me/+zXWruLwLfLFjYzVl"),
+                        InlineKeyboardButton("🔊 Update chαnnel📢", url="https://t.me/+MjAUb44jL9tkNjFl")
+                         ],
+                        [
+                            InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
-                        ]
-                    ]
-                )
-            )
+                            InlineKeyboardButton("⎝⎝✧✧ Subscribe YT✧✧⎠⎠", url="https://www.youtube.com/@natureq")
+                        ]]))
             else :
                 await cmd.message.edit(
                 Config.HOME_TEXT.format(cmd.message.chat.first_name, cmd.message.chat.id),
@@ -433,19 +442,20 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🔊 suppor† group👍", url="https://t.me/+GFMvhtCR_BdhOTA1"),
+                            InlineKeyboardButton("📽️ Movie chαnnel📽️", url="https://t.me/+l_5oMi-MXmVkOTM9")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
+                        InlineKeyboardButton("🎥 Movie Group📽️", url="https://t.me/+zXWruLwLfLFjYzVl"),
+                        InlineKeyboardButton("🔊 Update chαnnel📢", url="https://t.me/+MjAUb44jL9tkNjFl")
+                         ],
+                        [
+                            InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
-                        ]
-                    ]
-                )
-            )
+                            InlineKeyboardButton("⎝⎝✧✧ Subscribe YT✧✧⎠⎠", url="https://www.youtube.com/@natureq")
+                        ]]))
 
         elif "refreshForceSub" in cb_data:
             if Config.UPDATES_CHANNEL:
@@ -491,19 +501,20 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🔊 suppor† group👍", url="https://t.me/+GFMvhtCR_BdhOTA1"),
+                            InlineKeyboardButton("📽️ Movie chαnnel📽️", url="https://t.me/+l_5oMi-MXmVkOTM9")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
+                        InlineKeyboardButton("🎥 Movie Group📽️", url="https://t.me/+zXWruLwLfLFjYzVl"),
+                        InlineKeyboardButton("🔊 Update chαnnel📢", url="https://t.me/+MjAUb44jL9tkNjFl")
+                         ],
+                        [
+                            InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
-                        ]
-                    ]
-                )
-            )
+                            InlineKeyboardButton("⎝⎝✧✧ Subscribe YT✧✧⎠⎠", url="https://www.youtube.com/@natureq")
+                        ]]))
             else :
                 await cmd.message.edit(
                 Config.HOME_TEXT.format(cmd.message.chat.first_name, cmd.message.chat.id),
@@ -511,19 +522,20 @@ async def Lazy_start():
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                            InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                            InlineKeyboardButton("🔊 suppor† group👍", url="https://t.me/+GFMvhtCR_BdhOTA1"),
+                            InlineKeyboardButton("📽️ Movie chαnnel📽️", url="https://t.me/+l_5oMi-MXmVkOTM9")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
+                        InlineKeyboardButton("🎥 Movie Group📽️", url="https://t.me/+zXWruLwLfLFjYzVl"),
+                        InlineKeyboardButton("🔊 Update chαnnel📢", url="https://t.me/+MjAUb44jL9tkNjFl")
+                         ],
+                        [
+                            InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                             InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                         ],
                         [
-                            InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
-                        ]
-                    ]
-                )
-            )
+                            InlineKeyboardButton("⎝⎝✧✧ Subscribe YT✧✧⎠⎠", url="https://www.youtube.com/@natureq")
+                        ]]))
 
         elif cb_data.startswith("ban_user_"):
             user_id = cb_data.split("_", 2)[-1]
